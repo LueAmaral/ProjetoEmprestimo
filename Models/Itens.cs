@@ -4,6 +4,8 @@ namespace ProjetoEmprestimo.Models
 {
     public class Itens
     {
+        [DisplayName("Código Item")]
+        public int codItem { get; set; }
         [DisplayName("Código Emprestimo")]
         public int codEmp { get; set; }
         [DisplayName("Código Livro")]

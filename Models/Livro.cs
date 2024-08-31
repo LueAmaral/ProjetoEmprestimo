@@ -9,11 +9,11 @@ namespace ProjetoEmprestimo.Models
         [DisplayName("Nome")]
         public string nomeLivro { get; set; }
         [DisplayName("Imagem")]
-        public string imageLivro { get; set; }
+        public string imagemLivro { get; set; }
         [DisplayName("Quantidade")]
         public int quantidadeLivro { get; set; }
-        //[DisplayName("Categoria")]
-        //public Categoria RefCategoria { get; set; }
+        [DisplayName("Categoria")]
+        public Categoria RefCategoria { get; set; }
 
     }
 }
