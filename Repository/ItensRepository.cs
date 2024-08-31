@@ -25,6 +25,11 @@ namespace ProjetoEmprestimo.Repository
             throw new NotImplementedException();
         }
 
+        public Livro ObterItens(int codItem)
+        {
+            throw new NotImplementedException();
+        }
+
         public IEnumerable<Livro> ObterTodosItens()
         {
             throw new NotImplementedException();

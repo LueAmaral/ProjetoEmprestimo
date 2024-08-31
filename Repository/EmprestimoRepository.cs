@@ -20,6 +20,11 @@ namespace ProjetoEmprestimo.Repository
             throw new NotImplementedException();
         }
 
+        public Livro ObterEmprestimo(int codEmp)
+        {
+            throw new NotImplementedException();
+        }
+
         public Livro ObterEmprestimoPorId(int codEmp)
         {
             throw new NotImplementedException();

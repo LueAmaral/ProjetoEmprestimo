@@ -9,6 +9,7 @@ namespace ProjetoEmprestimo.Repository.Contract
         void CadastrarCategoria(Categoria categoria);
         void AtualizarCategoria(Categoria categoria);
         void DeletarCategoria(Categoria categoria);
+        Livro ObterCategoria(int codCateg);
         Livro ObterCategoriaPorId(int codCateg);
     }
 }

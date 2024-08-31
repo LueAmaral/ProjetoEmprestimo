@@ -9,6 +9,7 @@ namespace ProjetoEmprestimo.Repository.Contract
         void CadastrarEmprestimo(Emprestimo emprestimo);
         void AtualizarEmprestimo(Emprestimo emprestimo);
         void DeletarEmprestimo(Emprestimo emprestimo);
+        Livro ObterEmprestimo(int codEmp);
         Livro ObterEmprestimoPorId(int codEmp);
     }
 }

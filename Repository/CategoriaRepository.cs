@@ -20,6 +20,11 @@ namespace ProjetoEmprestimo.Repository
             throw new NotImplementedException();
         }
 
+        public Livro ObterCategoria(int codCateg)
+        {
+            throw new NotImplementedException();
+        }
+
         public Livro ObterCategoriaPorId(int codCateg)
         {
             throw new NotImplementedException();
